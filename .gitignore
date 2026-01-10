@@ -1,0 +1,64 @@
+# --- Python Environment ---
+.venv/
+venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.installed.cfg
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# --- Datasets (Heavy Files) ---
+# Dataset images are excluded to keep repository size manageable
+# See README.md for dataset setup instructions
+train/
+test/
+val/
+
+# --- Specific Images ---
+# These look like local test samples
+normal_lungs.jpeg
+Pneumonia.jpeg
+tuberculosis.jpeg
+*.png
+*.jpg
+*.jpeg
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+.project
+.settings/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Weights & Logs (Common in DL) ---
+*.pt
+*.pth
+*.h5
+*.weights
+runs/
+wandb/
